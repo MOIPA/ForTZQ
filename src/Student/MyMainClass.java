@@ -12,4 +12,5 @@ public class MyMainClass {
         tr.printInfo();
         tzq.printInfo();
     }
+    // 作业测试 00
 }
