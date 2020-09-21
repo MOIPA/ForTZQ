@@ -49,6 +49,7 @@ public class MyArrayList implements IMyArrayList {
             arr[i] = arr[i - 1];
         }
         arr[index+1] = obj;
+        posi++;
     }
 
     public void printAllData() {

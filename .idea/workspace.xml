@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d851187c-7ffa-40e9-b956-54bff14b7b1a" name="Default Changelist" comment="今天的作业：干了……">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentExample/Basic.java" afterDir="false" />
+    <list default="true" id="d851187c-7ffa-40e9-b956-54bff14b7b1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArrayList2/ArrayList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayList2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arraylist/Arraylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arraylist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TZQ JAVA/META-INF/TZQ JAVA.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TZQ JAVA/Student/MyMainClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TZQ JAVA/Student/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/MyMainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentExample/MyMainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentExample/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/list/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/list/MyArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600519072628" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Basic">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StudentExample.Basic" />
       <module name="TZQ JAVA" />
@@ -70,22 +66,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld.HelloWorld" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arraylist.Main" />
       <module name="TZQ JAVA" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentExample.MyMainClass" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.list.Main" />
       <module name="TZQ JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StudentExample.*" />
+          <option name="PATTERN" value="ds.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayList2.Main2" />
+      <module name="TZQ JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,17 +106,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MyMainClass" />
       <item itemvalue="Application.Homework" />
       <item itemvalue="Application.Basic" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.MyMainClass" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600531796653</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="今天的作业1">
+      <created>1600574898937</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600574898937</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -148,7 +169,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化" />
     <MESSAGE value="今天的作业：干了……" />
-    <option name="LAST_COMMIT_MESSAGE" value="今天的作业：干了……" />
+    <MESSAGE value="今天的作业1" />
+    <option name="LAST_COMMIT_MESSAGE" value="今天的作业1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600573366780">
@@ -167,34 +189,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="544" y="305" width="448" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1600572055874" />
-    <state x="374" y="200" width="802" height="552" key="CommitChangelistDialog2" timestamp="1600574745835">
+    <state x="374" y="200" width="802" height="552" key="CommitChangelistDialog2" timestamp="1600574897239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="374" y="200" width="802" height="552" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600574745835" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600574764431">
+    <state x="374" y="200" width="802" height="552" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600574897239" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600700058673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600574764431" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600574764431">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600700058673" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600700058673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600574764431" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600574764430">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600700058673" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600700058673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600574764430" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600574764431">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600700058673" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600700058673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600574764431" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600700058673" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600531800145">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600531800145" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1600573468301">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1600611035067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600573468301" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600611035067" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1600568281367">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,6 +229,11 @@
           <url>file://$PROJECT_DIR$/src/HelloWorld/HelloWorld.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ds/list/Main.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
